@@ -8,6 +8,9 @@ galaxy_info:
       versions:
         - all
 dependencies:
+  - name: set-apt-facts
+    src: https://github.com/deanmcniven/ansible-set-apt-facts.git
+    version: origin/master
   - name: apt-https-support
     src: https://github.com/deanmcniven/ansible-apt-https-support.git
     version: origin/master
